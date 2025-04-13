@@ -1,6 +1,6 @@
 # Пример использования PlantUML
 
-```plantuml
+```plantuml:md-sample-sequence
 @startuml
 class FruitBox {
     Fruit* content[]
@@ -26,3 +26,5 @@ Fruit <|-- Banana
 FruitBox o- Fruit
 @enduml
 ```
+
+![](./md-sample-sequence.svg)
